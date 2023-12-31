@@ -1,0 +1,44 @@
+<html>
+    <head><title>My website</title></head>
+    <style>
+        body{background-color:rgb(250, 250, 250);}
+    </style>
+    <body>
+        <h1 style="color:rgb(199, 42, 69); text-align:center;">just run the code</h1>
+     <center><button style="color:rgb(15, 19, 26); background-color:rgb(82, 222, 222); border:1px solid violet; border-radius:5px; padding:10px; font-size:larger; line-height:6px; margin-top:20px; " onclick="window.location.href='newyear.html'">run</button></center>
+     <pre style="font-size:large; text-align:center; margin-top:20px;"><span style = "color:forestgreen;">#simple python program to print new year wishes</span>
+
+        alphabets="abcdefghijklmnopqrstuvwxyz"
+        b="ibqqz"
+        c="ofx"
+        d="zfbs"
+        k=1
+        q=[]
+        r=[]
+        s=[]
+        for i in range(len(b)):
+          a = alphabets[alphabets.index(b[i])+(k*(-1))]
+          q.append(a)
+        x=''.join(q)
+        x=x.capitalize()
+        for j in range(len(c)):
+          a1= alphabets[alphabets.index(c[j])+(k*(-1))]
+          r.append(a1)
+        y=''.join(r) 
+        y=y.capitalize() 
+        for m in range(len(d)):
+            a2 =alphabets[alphabets.index(d[m])+(k*(-1))]
+            s.append(a2)
+        z=''.join(s)
+        z=z.capitalize()
+        p = x + " " + y + " " + z
+        import math
+        u=math.pow(10,3)
+        v=math.log(100,10)
+        w=math.sqrt(625)
+        n=math.sin(90)
+        o=str(int((u*v)+w-n))
+        print(p +" "+ o )
+     </pre>
+    </body>
+</html>
